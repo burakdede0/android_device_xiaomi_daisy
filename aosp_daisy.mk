@@ -19,6 +19,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # PixelExperience Properties
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
