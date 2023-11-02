@@ -10,7 +10,7 @@ $(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-pe
 
 PRODUCT_PACKAGES += \
     DaisyFrameworkOverlay
