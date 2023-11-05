@@ -7,19 +7,14 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES += \
     Chrome \
     Chrome-Stub \
-	GoogleContacts \
     Photos \
-    FilesPrebuilt \
     GoogleCamera \
     GoogleTTS \
     talkback \
-    WellbeingPrebuilt \
-    CalculatorGooglePrebuilt \
 	DreamlinerPrebuilt \
     DreamlinerUpdater \
-	PixelWallpapers2022 \
-    CalendarGooglePrebuilt \
-	GoogleDialer
+    SoundAmplifierPrebuilt \
+    ScribePrebuilt
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
